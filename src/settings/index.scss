@@ -1,0 +1,22 @@
+div#settings {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding: 5px;
+
+    #settingsForm {
+        flex: 1;
+    
+        border: 1px solid blue;
+        margin-top: 40px;
+        padding-top: 20px;
+    }
+    
+    .col-form-label {
+         text-align: right;
+    }
+}
+
